@@ -8,7 +8,9 @@ dayjs.extend(localeData)
 dayjs.extend(minMax)
 dayjs.extend(isSameOrBefore)
 dayjs.extend(isSameOrAfter)
+import hr from "../../locale-hr.js"
+dayjs.locale(hr)
 
 export {
-  dayjs
+	dayjs
 }
